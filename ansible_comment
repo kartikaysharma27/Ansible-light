@@ -1,0 +1,1 @@
+echo "ansible localhost -m lineinfile -a "dest=./motd regexp='ansible is awesome' line='awesome ansible'" >> ansible
